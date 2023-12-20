@@ -1,0 +1,45 @@
+$font-text: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+$font-title: 'Montserra, sans-serif';
+$background-color: #EEE9E4;
+$color-text: #39A6C6; 
+
+.myCard {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    border: 2px solid $color-text;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 46%;
+    background-color: $background-color;
+    font-family: $font-text;
+
+    .Artist {
+        color: $color-text;
+        text-align: center;
+    }   
+    .Album {
+        color: $color-text;
+    }
+ }
+
+.TitleLine {
+    border-bottom: 1px, solid #999;
+    width: 50%;
+}
+
+.myText {
+    margin-left: .3rem;
+    width: 100%;
+}
+
+.Img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.Rate {
+    font-size: 12px;
+    color: $color-text;
+    font-weight: bold;
+}
